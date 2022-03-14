@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Week5TaskPrecious</string>
+
+    <string-array name="Name">
+    </string-array>
+
+        <string-array name="PhoneNumber">
+        </string-array>
+
+    <string-array name="Email">
+
+    </string-array>
+
+    <string-array name="Gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+</resources>
