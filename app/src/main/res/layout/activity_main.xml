@@ -38,6 +38,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:hint="Name"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.213"
         app:layout_constraintStart_toStartOf="parent"
@@ -50,7 +51,8 @@
         android:layout_marginTop="60dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:hint="Phone Number"
+        android:hint="Phone"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.213"
         app:layout_constraintStart_toStartOf="parent"
@@ -64,6 +66,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:hint="Email"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.213"
         app:layout_constraintStart_toStartOf="parent"
@@ -84,16 +87,19 @@
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="398dp"
-        android:layout_height="71dp"
-        android:layout_marginTop="148dp"
+        android:layout_width="412dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="132dp"
         android:backgroundTint="@color/teal_200"
-        android:text="REGISTER"
+        android:text="SEND DATA"
         android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Gender" />
+        app:layout_constraintTop_toBottomOf="@+id/Gender"
+        app:layout_constraintVertical_bias="0.918" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

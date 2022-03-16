@@ -1,13 +1,12 @@
 <resources>
     <string name="app_name">Week5TaskPrecious</string>
 
-    <string-array name="Name">
-    </string-array>
+    <string-array name="Name"></string-array>
 
-        <string-array name="PhoneNumber">
-        </string-array>
+    <string-array name="Phone"></string-array>
 
     <string-array name="Email">
+
 
     </string-array>
 
