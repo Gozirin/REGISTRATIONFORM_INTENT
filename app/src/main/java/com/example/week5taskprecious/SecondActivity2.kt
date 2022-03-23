@@ -11,9 +11,6 @@ import java.util.jar.Attributes
 class SecondActivity2 : AppCompatActivity() {
 
 
-
-
-
     private lateinit var textName : TextView
     private lateinit var textPhone : TextView
     private  lateinit var textEmail : TextView
