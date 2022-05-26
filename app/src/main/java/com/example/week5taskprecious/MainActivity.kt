@@ -15,7 +15,7 @@ import androidx.appcompat.widget.DecorContentParent
 import androidx.core.graphics.drawable.DrawableCompat.inflate
 import kotlinx.android.synthetic.main.activity_main.*
 
-//AdapterView.OnItemSelectedListener
+AdapterView.OnItemSelectedListener
 class MainActivity : AppCompatActivity() {
 
 
@@ -42,11 +42,11 @@ class MainActivity : AppCompatActivity() {
         spinner = findViewById(R.id.spinner2)
 
 
-    }
+//    }
 
 
-    override fun onResume() {
-        super.onResume()
+//    override fun onResume() {
+//        super.onResume()
 
 
         btnSendData.setOnClickListener {
@@ -77,7 +77,6 @@ class MainActivity : AppCompatActivity() {
 
             fun validatePhone(): Boolean {
                 if (isPhone(phone)) {
-
                     editTextPhone4.hint = "Valid Phone number"
                     result = true
                 } else {
@@ -88,9 +87,8 @@ class MainActivity : AppCompatActivity() {
             }
 
             fun validateEmail(): Boolean {
+
                 if (email.contains("@") && email.contains(".com")) {
-
-
                     editTextTextEmailAddress5.hint = "valid email"
                     result = true
                 } else {

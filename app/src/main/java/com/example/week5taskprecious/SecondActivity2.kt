@@ -35,8 +35,6 @@ class SecondActivity2 : AppCompatActivity() {
         val Email = intent.getStringExtra( "Email")
         val Gender = intent.getStringExtra( "Gender")
 
-
-
         textName.text = Name
         textPhone.text = Phone
         textEmail.text = Email

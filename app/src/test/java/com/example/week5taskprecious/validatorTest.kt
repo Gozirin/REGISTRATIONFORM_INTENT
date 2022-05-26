@@ -14,18 +14,15 @@ class validatorTest{
 
     @Test
     fun whenNameIsValid(){
-
         val name = "precious"
-
         val result = isLetter(name)
         assertThat(result).isEqualTo(true)
-
     }
+
     @Test
     fun whenNameIsInvalid(){
 
         val name = "12345678"
-
         val result = isLetter(name)
         assertThat(result).isEqualTo(false)
 
@@ -63,9 +60,7 @@ class validatorTest{
 
     @Test
     fun whenEmailIsInvalid(){
-
         val email = "drm864#$%<."
-
         val result = isLetter(email)
         assertThat(result).isEqualTo(false)
 
